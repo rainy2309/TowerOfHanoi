@@ -14,4 +14,12 @@ public class thaphanoi {
         int n = 3; 
         solveHanoi(n, 'A', 'C', 'B'); 
     }
+
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n;
+        n = sc.nextInt();
+        char x,y,z;
+        solveHanoi(n,x,y,z);
+    }
 }
